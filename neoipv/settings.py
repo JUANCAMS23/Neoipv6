@@ -55,7 +55,7 @@ ROOT_URLCONF = 'neoipv.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/neoipv/neoipv/plantillas/'],
+        'DIRS': ['../neoipv/plantillas/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
