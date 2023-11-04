@@ -28,7 +28,7 @@ urlpatterns = [
     path('Inicio2/', contenidoHTMLCargadores),
     path('Que es IP v4/', PlantillaHija),
     path('Que es IP v6/', PlantillaHija2),
-    path('https://neoipv6.azurewebsites.net/Home/', Home),
+    path('http://neoipv6.azurewebsites.net/Home/', Home),
     path('Acerca De Nosotros/', AcercaDeNosotros),
     path('ChatBoxInteractivo/', ChatBoxInteractivo),
 ]
