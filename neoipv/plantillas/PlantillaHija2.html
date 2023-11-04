@@ -1,0 +1,60 @@
+{% extends "PlantillaPadre.html" %}
+
+{%block title%} ¿Qué es IP v6? {% endblock%}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPv6 - Qué es y Videos de referencia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>IPv6 - Qué es y Videos de referencia</h1>
+    </header>
+    <main>
+        <h2>¿Qué es IPv6?</h2>
+        <p>IPv6 (Protocolo de Internet versión 6) es una revisión del Protocolo de Internet que reemplaza a IPv4. IPv6 fue diseñado para abordar la agotamiento de direcciones IPv4 y ofrece un espacio de direcciones más amplio y muchas mejoras en términos de seguridad y eficiencia de red.</p>
+        
+        <h2>Videos de YouTube</h2>
+        <iframe src="https://www.youtube.com/embed/u1n5406RzZ0" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/2eGdJzcGty4" frameborder="0" allowfullscreen></iframe>
+        <!-- Reemplaza "VIDEO_ID_1" y "VIDEO_ID_2" con los ID reales de los videos de YouTube -->
+
+        <p>Estos videos te proporcionarán una introducción más detallada sobre IPv6 y su importancia en la evolución de la red.</p>
+    </main>
+</body>
+</html>
+
+
+{% endblock %}

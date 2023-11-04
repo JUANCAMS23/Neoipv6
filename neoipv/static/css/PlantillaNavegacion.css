@@ -1,0 +1,11 @@
+#barra{
+	margin: 0px;
+	padding: opx;
+	list-style: none;
+	text-transform: uppercase;
+}
+
+#barra li{
+	display: inline;
+	margin: 0 30px;
+}
