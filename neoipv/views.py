@@ -32,7 +32,7 @@ def PlantillaHija2(request):
 	return HttpResponse(documento)
 
 def Home(request):
-	plantillaExterna = loader.get_template('../Home.html')
+	plantillaExterna = loader.get_template('Home.html')
 	documento = plantillaExterna.render()
 	return HttpResponse(documento)
 
