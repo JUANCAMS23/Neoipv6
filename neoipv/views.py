@@ -10,7 +10,7 @@ def bienvenidaRojo(request): # Pasamos un objeto de tipo request como primer arg
 	return HttpResponse("<p style='color: red;'>Bienvenido o bienvenida a este curso de Django. ;)</p>")
 
 def contenidoHTML(request):
-	return render(request, 'plantillas/Home.html')
+	return render(request, 'Home.html')
 
 def contenidoHTMLCargadores(request):
 	plantillaExterna = loader.get_template('plantilla2.html')
