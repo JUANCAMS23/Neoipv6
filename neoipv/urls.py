@@ -19,6 +19,7 @@ from django.urls import path
 from neoipv.views import bienvenida, bienvenidaRojo
 from neoipv.views import contenidoHTML, contenidoHTMLCargadores, ChatBoxInteractivo
 from neoipv.views import PlantillaHija, PlantillaHija2, Home, AcercaDeNosotros
+from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
