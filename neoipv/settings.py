@@ -55,7 +55,7 @@ ROOT_URLCONF = 'neoipv.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['../neoipv/plantillas/'],
+        'DIRS': ['http://neoipv6.azurewebsites.net/neoipv/plantillas/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
