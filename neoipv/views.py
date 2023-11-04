@@ -9,7 +9,7 @@ def bienvenidaRojo(request): # Pasamos un objeto de tipo request como primer arg
 	return HttpResponse("<p style='color: red;'>Bienvenido o bienvenida a este curso de Django. ;)</p>")
 
 def contenidoHTML(request):
-	plantillaExterna = open("../../neoipv/plantillas/Home.html")
+	plantillaExterna = open("plantillas/Home.html")
 	template = Template(plantillaExterna.read())
 	plantillaExterna.close()
 	contexto = Context()
