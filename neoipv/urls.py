@@ -16,20 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from neoipv.views import bienvenida, bienvenidaRojo
-from neoipv.views import contenidoHTML, contenidoHTMLCargadores, ChatBoxInteractivo
-from neoipv.views import PlantillaHija, PlantillaHija2, Home, AcercaDeNosotros
+from neoipv.views import ChatBoxInteractivo
+from neoipv.views import PlantillaHija, PlantillaHija2, Home
 from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Bienvenidos/', bienvenida),
-    path('Bienvenida123/', bienvenidaRojo),
-    path('Inicio/', contenidoHTML),
-    path('Inicio2/', contenidoHTMLCargadores),
     path('Que es IP v4/', PlantillaHija),
     path('Que es IP v6/', PlantillaHija2),
     path('Home/', Home),
-    path('Acerca De Nosotros/', AcercaDeNosotros),
     path('ChatBoxInteractivo/', ChatBoxInteractivo),
 ]
