@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'NeoIPV6'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_71E57B7BFEC4497390D050C1A3BA832E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2E876449AAC54BB69D5C685251B0C0E6 }}
